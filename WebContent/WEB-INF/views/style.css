@@ -1,0 +1,291 @@
+.container{
+	text-align:center;
+}
+#login{
+	border-right:2px solid gray;
+}
+
+#user_action{
+	margin-top:50px;
+}
+#home_container span{
+	padding:5px 10px;
+}
+#home_container span a{
+	text-decoration:none;
+	color:black;
+}
+
+#authentification_page{
+	width:400px;
+	margin:50px auto;
+	border:1px solid gray;
+	padding:40px 0px;
+}
+label{
+	display:inline-block;
+	width:100px;
+	text-align:left;
+}
+form{
+	text-align:Center;
+}
+input{
+	height:30px;
+}
+
+#submitBtn{
+	margin:40px 0px;
+	padding:8px 20px;
+	border-radius:10px;
+	background-color:black;
+	color:white;
+}
+
+.errors{
+	color:red;
+}
+
+#authentification_page h4 span{
+	color:gray;
+}
+
+button{
+	padding:10px;
+	border-radius:4px;
+}
+
+#navigation{
+	display:flex;
+	justify-content:center;
+	background-color:black;
+	padding:15px 0px;
+}
+#navigation div a{
+	text-decoration:none;		
+	color:white;
+	font-size:14px;
+}
+
+#navigation div{
+	flex-basis:15%;
+}
+
+.content_page{
+	display:flex;
+	width:90%;
+	margin:50px auto;	
+	justify-content:space-between;
+}
+
+.content_page h4{
+	background-color:black;
+	padding:10px 0px;
+	color:white;
+	margin:0px;
+	
+}
+
+												/* CONTENT */
+#lotto_types, #wallet_menu{
+	flex-basis:20%;
+	background-color:#191919;
+	color:white;
+	margin:0px;
+}
+#lotto_types p,#wallet_menu p{
+	border-bottom:1px solid #2f2f2f;
+	margin:0px;
+	padding:10px 0px;
+}
+
+#numbers{
+	flex-basis:44%;
+}
+
+#tickets{
+	flex-basis:30%;
+}
+
+#numbersLoto{
+	text-align:center;
+	display:flex;
+	width:500px;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+input[type="checkbox"]{ 
+    width:3.5em;
+    height:3.5em;
+    background-color: black;
+    color:white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+  	-webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    z-index:-1;
+}
+
+input[type="checkbox"]:checked{
+	background-color:red;
+}
+#box_numbers{
+	text-align:center;
+}
+
+#box_numbers label{
+	position:absolute;
+	color:white;
+	margin-top:14px;
+	margin-left:20px;
+}
+#createTicket{
+	margin-top:50px;
+	flex-basis:100%;
+}
+#createTicket>input[type="submit"]{
+	background-color:black;
+	color:white;
+	height:50px;
+	width:150px;
+	border-radius:10px;
+}
+
+						/*CREATE TICKET */
+						
+#numbers_choosed{
+	flex-basis:70%;
+}
+#createTicketContainer{
+	display:flex;
+	padding:20px 0px;
+	justify-content:space-around;
+}
+
+#chosenNumbers{
+	flex-basis:30%;
+	padding:0px 10px;
+	box-sizing:border-box;
+}
+#chosenNumbers div{
+	width:40px;
+	padding:10px 0px;
+	background-color:red;
+	color:white;
+	margin-bottom:15px;
+	float:left;
+	margin-right:10px;
+}
+
+#chosenNumbers h5, #ticketDetails h5{
+	margin:0px;
+	margin-bottom:20px;
+	padding:10px 0px;
+	background-color:#282828;
+	color:white;
+}
+#ticketDetails{
+	padding:0px 20px;
+	text-align:center;
+	flex-basis:55%;
+	background-color:#282828;
+	color:white;
+}
+
+#myTicket{
+	width:300px;
+	border:3px solid #1e1e1e;
+	margin:20px auto;
+}
+
+#myTicket h5{
+	padding:10px 0px;
+	background-color: #1e1e1e;
+}
+#myTicket label{
+	font-size:14px;
+}
+#myTicket input[type="submit"]{
+	margin:20px 0px;
+}
+#ticketCreated table thead{
+	border-top:1px solid black;
+	background-color:#1e1e1e;
+	color:white;
+}
+
+#ticketCreated table {
+	border-spacing:10px;
+	border-collapse:collapse;
+	width:100%;
+	margin-top:20px;
+}
+#ticketCreated table td{
+	border:1px solid black;
+	padding:10px 0px;
+}
+#ticketCreated table td span{
+	background-color:#1e1e1e;
+	color:white;
+	padding:5px 10px;
+	margin:10px 0px
+}
+
+#tickets table{
+	width:100%;
+}
+
+#tickets table tr td{
+	border:1px solid black;
+	padding:3px;
+}
+
+						/* WALLET */
+						
+#wallet{
+	flex-basis:60%;
+	margin:0px auto;
+}					
+#wallet_page{
+	background-color:#F0F0F0;
+	border:1px solid #E0E0E0;
+	padding:20px 50px;
+	margin:0px auto;
+	border-radius:40px;
+}
+
+#wallet_menu a{
+	text-decoration:none;
+	color:white;
+}
+
+#wallet_page  table{
+	width:100%;
+	text-align:center;
+}
+
+#wallet_page  table tr td{
+	font-size:18px;
+	text-align:center;
+}
+
+#deposit_page, #withdraw_page{
+	background-color:#F0F0F0;
+	padding:40px 0px;
+}
+
+#deposit_page label, #withdraw_page label{
+	display:inline-block;
+	width:200px;
+	font-size:18px;
+	color:#989898;
+}
+
+#deposit_page input[type="submit"], #withdraw_page input[type="submit"]{
+	width:120px;
+	height:40px;
+	margin-top:30px;
+	border-radius:7px;
+}
